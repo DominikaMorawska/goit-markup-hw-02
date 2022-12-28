@@ -1,0 +1,82 @@
+:root {
+    --blue-link: #2196F3;
+    --light-black: #212121;
+    --light-grey: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--light-black);
+}
+
+.link {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--light-black);
+    font-weight: 500
+}
+.link:hover,
+.link:focus {
+    color: var(--blue-link);
+}
+
+.info {
+    color: var(--light-grey)
+}
+ul {
+    list-style-type: none;
+}
+.first-part {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--blue-link);
+}
+
+.second-part {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    color: #000000;
+}
+button {
+    background: #F5F4FA;  
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--light-black);
+    cursor: pointer;
+}
+button:hover,
+button:focus {
+    color:#FFFFFF;
+    background: #2196F3;
+}
+
+.title-of-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: light-black;}
+.department {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--light-grey);
+}
+footer {
+    background: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
