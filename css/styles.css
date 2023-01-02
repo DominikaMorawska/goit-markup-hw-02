@@ -97,16 +97,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--light-grey);
 }
-footer {
-  background: #2f303a;
-  color: rgba(255, 255, 255, 0.6);
-}
-.adress {
-  font-size: 14px;
-  line-height: 1.72;
-  letter-spacing: 0.03em;
-  color: var(--white);
-}
 .portfolio-button {
   background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -120,10 +110,10 @@ footer {
   color: var(--light-black);
   cursor: pointer;
 }
-button:hover,
-button:focus {
-  color: #ffffff;
-  background: #2196f3;
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white);
+  background: var(--blue-link);
 }
 .title-of-project {
   font-weight: 700;
@@ -137,4 +127,14 @@ button:focus {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--light-grey);
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.72;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.page-end {
+  background: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
 }
